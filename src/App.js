@@ -1,14 +1,11 @@
+// src/App.js
 import React from 'react';
 import Card from './components/Card';
-import Counter from './components/Counter';
-import TextInput from './components/TextInput';
 
 const App = () => {
   return (
-    <div >
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <Card />
-      <Counter />
-      <TextInput />
     </div>
   );
 };
